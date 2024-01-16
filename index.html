@@ -8,57 +8,84 @@
     <style>
         body {
             line-height: 20px;
-            font-family: "noto-mono";
-            background-color: rgb(227, 184, 222);
+            font-family: Helvetica, sans-serif;
+            background-color:#F9E8D9 ;
+            color: #A9B388;
+            font-size: 15pt;
         }
-        h2{ 
-            font-family:Arial, Helvetica, sans-serif
+        h1{ 
+            font-family: "birch-std", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 100pt;
+            justify-content: center;
+            color: #527853;
+            margin-bottom: 65px;
+        }
+        p{
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+        a:link{
+            color:#7077A1;
+        }
+        a:visited{
+            color:#F7B787;
+        }
+        a:hover{
+            color:#EE7214;
         }
         .box1{
             margin-bottom: 10px;
-            margin-top: 10px;
+            margin-top: 15px;
             height: 5px;
-            background-color: aquamarine;
+            background-color:#EE7214;
         }
         .box2{
             height: 5px;
-            background-color: aquamarine;
+            background-color:#EE7214;
         }
-        .box3{
-            background-color: blanchedalmond;
-            height:100px;
-            width: 200px;
-        }
-        .box4{
-            background-color: #d081c1;
-            height:100px;
-            width: 100px;
-        }
-        .container{
+
+        .heading{
             display:flex;
-            justify-content:space-evenly
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .list{
+            margin: 20px;
         }
     </style>
 
 </head>
 <body>
-    <h2>good morning</h2>
-    <p>project number 1</p>
-
+    <div class="heading">
+        <h1>SUMMER IN PHILADELPHIA</h2>
+        <p><strong>PROJECT 1</strong></p>
+        <p>*insert disclaimer*</p>
+    </div>
+    
     <div class="box1"></div>
     <div class="box2"></div>
 
-    <p>from the first week of web design class</p>
+    <div class="list">
+        <p>work in progress </p>
 
-    <div class="container">
-        <div class="box3"></div>
-        <div class="box4"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
-        <div class="box3"></div>
-        <div class="box4"></div>
+        <p><a href="https://www.easternstate.org/halloween/" target="_blank">eastern state penitentiary</a></p>
+        <p><a href="https://philamuseum.org/visit" target="_blank">philadelphia museum of art</a></p>
+        <p><a href="https://gift.hmart.com/storelocator/index/index/id/88/" target="_blank">h-mart</a></p>
+        <p><a href="https://www.delawareriverwaterfront.com/places/spruce-street-harbor-park" target="_blank">spruce street harbor park</a></p>
+        <p><a href="https://www.visitphilly.com/things-to-do/attractions/wissahickon-valley-park/" target="_blank">wissahickon</a></p>
+        <p><a href="https://www.ritasice.com/locations/" target="_blank">rita's water ice</a></p>
+        <p><a href="https://ng-realtime.septa.org/routes/status/17" target="_blank">17 bus route</a></p>
+        <p><a href="https://www.fdrseamarket.com/" target="_blank">southeast asian market</a></p>
+        <p><a href="https://friendsofrittenhouse.org/" target="_blank">rittenhouse square</a></p>
+        <p><a href="https://www.linvilla.com/" target="_blank">linvilla orchards</a></p>
+        
+        <p>...</p>
+        <p>This site does not provide professional advice. To visit Philadelphia is to do so at your own risk. This website and its creator do not have any liability to you for any loss or damage of property, injuries, sickness, gunshot/mugging/unpleasant-encounters-with-rude-children/heatwave/etc-induced trauma. </p>
     </div>
+
+
 </body>
 </html>
