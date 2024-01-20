@@ -70,15 +70,21 @@ h2{
     background-color:#007600;
     width: 100vw;
 }
+a:link, a:visited {
+    color: #007600;
+    text-decoration: none;
+}
+a:hover{
+    color: #FB6100;
+}
 button {
     background-color: #007600;
     border: none;
     border-radius: 20px;
     color: #f7e8c4;
-    padding: 10px 150px;
+    padding: 30px 150px;
     text-align: center;
     font-size: 20px;
-    width: 100px;
     margin-top: 30px;
     margin-left: 30px;
     transition-duration: 0.4s;
