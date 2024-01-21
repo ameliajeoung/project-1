@@ -219,3 +219,6 @@ h5{
 .button2:hover{
     border-color: #FB6100;
 }
+p{
+    line-height: 25px;
+}
