@@ -1,5 +1,5 @@
 body {
-    line-height: 15px;
+    line-height: 10px;
     background-color:#f7e8c4;
     color: #55433B;
     font-size: 15pt;
@@ -148,6 +148,8 @@ button:active {
     padding: 15px;
     padding-top: 0px;
     padding-bottom: 0px;
+    overflow-y: auto;
+    height: 87vh;
 }
 .location-info{
     flex: 7;
@@ -155,7 +157,7 @@ button:active {
     margin-right: 10px;
     border-width: 2px;
     border-style: solid;
-    height: 500px;
+    height: fit-content;
 }
 .location-info2{
     flex: 7;
@@ -169,7 +171,7 @@ button:active {
 .picture{
     height: auto;
     width: auto;
-    flex: 5;
+    flex: 4;
     border: #7B524A;
     border-width: 2px;
     border-style: solid;
@@ -201,10 +203,12 @@ h4{
 }
 h5{
     font-family: 'birch-std';
-    font-size: 60pt;
-    margin-top: 10%;
-    margin-bottom: 35%;
+    font-size: 100pt;
+    margin-top: 0%;
+    margin-bottom: -3%;
     color: #FB6100;
+    text-wrap: balance;
+    line-height: 1;
 }
 .info-text{
     margin: 5%;
@@ -215,10 +219,21 @@ h5{
     border: #7B524A;
     border-width: 1px;
     border-style: solid;
+    margin-bottom: 10%;
 }
 .button2:hover{
     border-color: #FB6100;
 }
 p{
     line-height: 25px;
+}
+.info2{
+    color: #007600;
+    font-family: 'Fragment';
+    font-weight: 300;
+    font-size: 15pt;
+    margin-bottom: 10%;
+}
+.location-info .info-text .info2 p {
+    line-height: 10px;
 }
